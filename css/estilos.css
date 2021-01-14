@@ -1,0 +1,131 @@
+/*#0008a3,#00008f*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  background-image: -webkit-linear-gradient(top, #004669, #026698);
+  background-image: -ms-linear-gradient(top, #004669, #026698);
+  background-image: -moz-linear-gradient(top, #004669, #026698);
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+a:hover {
+  text-shadow: 0px 0px 4px #bce0ee;
+}
+
+nav li a {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+section {
+  width: 60%;
+  float: left;
+  margin: 5%;
+}
+aside {
+  display: inline-flex;
+  float: right;
+  margin-top: 0;
+  /*overflow: hidden;*/
+  overflow: scroll;
+  height: 1000px;
+}
+p {
+  text-align: justify-all;
+}
+/**Estilos aplicados al footer de cada una de las paginas solo aplica para el elemento que tine id="footer" 
+para el caso es un div <div id="footer">**/
+#footer {
+  width: 100%;
+  /*display: inline-flex;*/
+  position: fixed;
+  background-color: #060606;
+  text-align: center;
+  color: #ffff;
+  height: 100px;
+  bottom: 0;
+}
+
+#section {
+  width: 100%;
+  text-align: justify;
+}
+
+.workbench {
+  width: 100%;
+}
+h6,
+h5,
+h4 {
+  text-align: center;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.img {
+  display: block;
+  margin: auto;
+}
+.bottom {
+  padding-bottom: 80px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/*******
+Estilos utilizados para la animacion del circulo
+******/
+@keyframes estilos {
+  from {
+    left: 50px;
+    background-color: plum;
+  } /* inicio*/
+  to {
+    left: 600px;
+    background-color: blue;
+  } /* fin*/
+}
+/*Regla keyframes para Chrome y Safari*/
+@-webkit-keyframes estilos {
+  from {
+    left: 50px;
+    background-color: plum;
+  } /* inicio*/
+  to {
+    left: 600px;
+    background-color: blue;
+  } /* fin*/
+}
+
+#global {
+  width: 65%;
+  margin: 0px auto;
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 3px gray;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+/*.bx-wrapper {
+  height: 300px;
+}
+. bx-viewport {
+  height: 200px;
+}
+bx-clone {
+  height: 200px;
+}*/
